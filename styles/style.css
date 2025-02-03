@@ -4,6 +4,7 @@
 body {
   font-family: Arial, sans-serif;
   scroll-behavior: smooth;
+  background-color: #3aafe0;
 }
 
 nav {
@@ -83,8 +84,7 @@ section {
 
 
 .about {
-  background: #abdaf1;
- 
+  background: #61caff;
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat; 
@@ -108,7 +108,8 @@ section {
 
 
 .careers {
-  background: #c0c0c0;
+  background: #3aafe0;
+  border: 2px solid #3aafe0;
 }
 
 
@@ -119,23 +120,6 @@ section {
   text-decoration: none;
   border-radius: 5px;
   margin-top: 20px;
-}
-
-
-
-
-.job-openings {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 20px;
-}
-
-.job {
-  background: #fff;
-  padding: 20px;
-  border-radius: 5px;
-  width: 200px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 
@@ -150,7 +134,6 @@ footer {
 .contact_us_green * {
     font-family: Nunito, sans-serif;
     margin-bottom: 0%;
-    border: 2px solid greenyellow;
   }
   
   .contact_us_green .responsive-container-block {
@@ -211,7 +194,7 @@ footer {
   
   .contact_us_green .text-blk.contactus-subhead {
     max-width: 385px;
-    color: #2b7aa1;
+    color: white;
     font-size: 18px;
     margin-top: 0px;
     margin-right: 0px;
@@ -245,13 +228,13 @@ footer {
     display:flex;
     margin-top: 0px;
     margin-right: 0px;
-    margin-bottom: 0px;
+    margin-bottom: px;
     margin-left: 50px;
     position:relative;
   }
   
   .contact_us_green .contact-text {
-    color: #0e8ec5;
+    color: white;
   }
   
   .contact_us_green .form-box, .contact_us_green.workik-contact-box{
@@ -274,7 +257,7 @@ footer {
     border-radius:5px;
     font-size: 16px;
     padding: 10px;
-    margin-top: 0;
+    margin: 0px 0px 20px 0px ;
   }
   
   .contact_us_green .submit-btn {
@@ -314,13 +297,10 @@ footer {
   }
   
   .contact_us_green .responsive-cell-block.wk-tab-12.wk-mobile-12.wk-desk-5.wk-ipadp-10 {
-    padding-top: 0px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    padding-left: 60px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+   align-items: center;
+   background-color: #3aafe0;
+   padding: 80px 0px 80px 0px;
+   
   }
   
   .contact_us_green .head-text-box {
@@ -330,7 +310,7 @@ footer {
   .contact_us_green .line {
     border-right-width: 1.8px;
     border-right-style: solid;
-    border-right-color: #a2a2a2;
+    border-right-color: #3aafe0;
   }
   
   .contact_us_green .responsive-cell-block.wk-tab-12.wk-mobile-12.wk-desk-7.wk-ipadp-10.line {
@@ -646,14 +626,17 @@ body {
 }
 
 .careers * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+  
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
 }
 
 .careers .container {
   max-width: 900px;
   margin: 0 auto;
+  margin: -50px 0px 0px 0px;
+  
 }
 
 .careers .apply_box {
@@ -701,7 +684,7 @@ body {
 .careers select,
 .careers textarea {
   padding: 6px 10px;
-  border: 1px solid #ccc;
+  border: 1px solid #ada3a3;
   border-radius: 5px;
   font-size: 15px;
 }
@@ -733,13 +716,14 @@ body {
 }
 
 .careers .button_container {
+  
   display: flex;
   justify-content: flex-end;
   margin-top: 20px;
 }
 
 .careers button {
-  background: orangered;
+  background: rgb(38, 181, 221);
   color: #fff;
   padding: 10px 20px;
   border: none;
