@@ -149,14 +149,19 @@ section {
   background-position: center; 
   background-repeat: no-repeat; 
   margin-bottom: 10px;
- padding-top: 0px;
- transform: translateY();
+ display: flex;
+ flex-direction: column;
+ text-align: center;
+ align-items: center;
+ justify-content: center;
+ padding: 20px;
+ max-width: 100%;
+ box-sizing: border-box;
 }
-
-
-
-
-.about h3{
+.about h3, .about p{
+  max-width: 100%;
+  word-wrap: break-word;
+  text-align: center;
   font-size: 2rem;
 }
 
@@ -166,8 +171,17 @@ section {
 }
 
 @media (max-width: 768px) {
-  #about p {
+  .about {
+    padding: 10px; /* Reduce padding */
+    text-align: center;
+  }
+  .about h3 {
+    font-size: 1.8rem;
+  }
+  .about p {
     font-size: 1.2rem; /* Adjusted for mobile */
+    line-height: 1.5; /* Prevents text from being too compact */
+    word-wrap: break-word;
   }
 }
 
