@@ -66,7 +66,7 @@ nav ul.nav-links li a:hover {
 
 /*Hide menu for small screens */
 /* Responsive Design */
-@media (min-width: 300px) {
+@media (max-width: 760px) {
   nav ul.nav-links {
     display: none;
     width: 100%;
@@ -125,7 +125,7 @@ section {
   margin-top: 10px;
 }
 
-@media (min-width: 300px) {
+@media (max-width: 760px) {
   #home h1 {
     font-size: 2.5rem; /* Adjusted for mobile */
   }
@@ -135,7 +135,7 @@ section {
   }
 }
 
-@media(min-width: 300px){
+@media(max-width: 760px){
   .hero {
     height: auto; /* Let content define height */
     padding: 20px 0; /* Adjust padding */
@@ -171,7 +171,7 @@ section {
   margin-bottom: 1.5rem;
 }
 
-@media (min-width: 300px) {
+@media (max-width: 760px) {
   .about {
     padding: 0px 0px; /* Reduce padding */
     text-align: center;
@@ -343,7 +343,7 @@ footer {
     margin: 0px 0px 20px 0px ;
   }
 
-  @media (min-width: 300px) {
+  @media (max-width: 760px) {
     .contact_us_green .responsive-container-block.big-container {
       padding: 0 20px; /* Adjusted padding for smaller screens */
     }
@@ -409,7 +409,7 @@ footer {
     padding-left: 0px;
   }
   
-  @media ( min-width: 300px) {
+  @media ( max-width: 760px) {
     .contact_us_green .responsive-container-block.container {
       justify-content: center;
       display: flex;
@@ -451,8 +451,9 @@ footer {
       padding-left: 0px;
     }
   }
-  
-  @media (min-width: 300px) {
+
+ 
+  @media (max-width: 760px) {
     .contact_us_green .text-content {
       display: none;
     }
@@ -469,8 +470,8 @@ footer {
       font-size: 30px;
     }
   }
-  
-  @media (min-width: 300px) {
+
+  @media (max-width: 760px) {
     .contact_us_green .responsive-container-block.big-container {
       padding-top: 0px;
       padding-right: 20px;
@@ -503,6 +504,8 @@ footer {
       margin: 0 0 25px 0;
     }
   }
+  
+ 
 
   *,
 *:before,
@@ -564,7 +567,7 @@ body {
   width: 100%;
 }
 
-@media (min-width: 300px) {
+@media (max-width: 760px) {
   .wk-ipadp-1 {
     width: 8.333333%;
   }
@@ -614,7 +617,7 @@ body {
   }
 }
 
-@media (min-width: 300px) {
+@media (max-width: 760px) {
   .wk-tab-1 {
     width: 8.333333%;
   }
@@ -664,7 +667,7 @@ body {
   }
 }
 
-@media (min-width: 300px) {
+@media (max-width: 760px) {
   .wk-mobile-1 {
     width: 8.333333%;
   }
@@ -713,6 +716,8 @@ body {
     width: 100%;
   }
 }
+
+
 
 .careers * {
   
@@ -836,7 +841,7 @@ body {
   width: 100%;
 }
 
-@media (min-width: 300px) {
+@media (max-width: 760px) {
   .careers .form_container {
     grid-template-columns: 1fr; /* Single column on small screens */
   }
@@ -844,4 +849,6 @@ body {
     grid-column: 1 / span 1;
   }
 }
+
+
 
