@@ -5,6 +5,8 @@ body {
   font-family: Arial, sans-serif;
   scroll-behavior: smooth;
   background-color: #3aafe0;
+  margin: 0;
+  padding: 0;
 }
 
 nav {
@@ -25,6 +27,7 @@ nav ul.nav-links {
   list-style: none;
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-left: auto;
   margin-right: auto;
   
@@ -60,12 +63,8 @@ nav ul.nav-links li a:hover {
 
 /*Hide menu for small screens */
 /* Responsive Design */
-@media screen and (max-width: 768px) {
-  .menu-icon {
-    display: block;
-  }
-
-  .nav-links {
+@media (max-width: 768px) {
+  nav ul.nav-links {
     display: none;
     flex-direction: column;
     position: absolute;
@@ -77,8 +76,7 @@ nav ul.nav-links li a:hover {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
 
-  /* When checkbox is checked, show the menu */
-  #menu-toggle:checked + .menu-icon + .nav-links {
+  nav ul.nav-links.active {
     display: flex;
   }
 }
@@ -100,19 +98,34 @@ section {
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat; 
-  height: 100vh; 
-  color:#f8f8f8
+  min-height: 100vh; 
+  color:#f8f8f8;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 #home h1 {
-  font-size: 8rem; 
+  font-size: 4rem; 
   font-weight: bold;
-  margin-top: -200px; 
+  margin-top: -100px; 
 }
 
 #home p {
-  font-size: 4rem;
+  font-size: 2rem;
   margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  #home h1 {
+    font-size: 3rem; /* Adjusted for mobile */
+    margin-top: -50px;
+  }
+
+  #home p {
+    font-size: 1.5rem; /* Adjusted for mobile */
+  }
 }
 
 
@@ -280,7 +293,7 @@ footer {
     border-radius: 5px;
     font-size: 16px;
     padding-top: 10px;
-   margin-top:0px;
+   margin-bottom: 15px;
   }
   
   .contact_us_green .textinput {
@@ -291,6 +304,12 @@ footer {
     font-size: 16px;
     padding: 10px;
     margin: 0px 0px 20px 0px ;
+  }
+
+  @media (max-width: 768px) {
+    .contact_us_green .responsive-container-block.big-container {
+      padding: 0 20px; /* Adjusted padding for smaller screens */
+    }
   }
   
   .contact_us_green .submit-btn {
@@ -781,6 +800,9 @@ body {
 }
 
 @media (max-width: 460px) {
+  .careers .form_container {
+    grid-template-columns: 1fr; /* Single column on small screens */
+  }
   .careers .textarea_control {
     grid-column: 1 / span 1;
   }
