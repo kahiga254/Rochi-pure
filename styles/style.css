@@ -1,10 +1,8 @@
-
-
- General Styles 
+ 
 body {
   font-family: Arial, sans-serif;
   scroll-behavior: smooth;
-  background-color: #3aafe0;
+  
   margin: 0;
   padding: 0;
 }
@@ -65,7 +63,6 @@ nav ul.nav-links li a:hover {
 /* Responsive Design */
 @media (max-width: 768px) {
   nav ul.nav-links {
-    display: none;
     flex-direction: column;
     position: absolute;
     top: 60px;
@@ -805,5 +802,19 @@ body {
   }
   .careers .textarea_control {
     grid-column: 1 / span 1;
+  }
+}
+
+@media (max-width: 768px) {
+  section {
+    padding: 10px; /* Adjusted padding for smaller screens */
+  }
+
+  .about h3 {
+    font-size: 1.5rem; /* Adjusted font size for smaller screens */
+  }
+
+  .about p {
+    font-size: 0.9rem; /* Adjusted font size for smaller screens */
   }
 }
