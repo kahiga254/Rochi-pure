@@ -61,14 +61,14 @@ nav ul.nav-links li a:hover {
   display: none;
   font-size: 30px;
   cursor: pointer;
-  color: white;
+  padding: 10px;
 }
 
 /*Hide menu for small screens */
 /* Responsive Design */
 @media (max-width: 768px) {
   nav ul.nav-links {
-    display: block;
+    display: none;
     width: 100%;
     flex-direction: column;
     position: absolute;
