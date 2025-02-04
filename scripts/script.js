@@ -1,3 +1,4 @@
 document.getElementById("menu-icon").addEventListener("click", function() {
-  document.getElementById("nav-links").classList.toggle("active");
+  let navLinks = document.getElementById("nav-links");
+  navLinks.classList.toggle("active");
 });
