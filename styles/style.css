@@ -7,6 +7,10 @@ body {
   padding: 0;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
 nav {
   background-color: #3aafe0;
   color: #fff;
@@ -63,6 +67,8 @@ nav ul.nav-links li a:hover {
 /* Responsive Design */
 @media (max-width: 768px) {
   nav ul.nav-links {
+    display: none;
+    width: 100%;
     flex-direction: column;
     position: absolute;
     top: 60px;
@@ -75,6 +81,10 @@ nav ul.nav-links li a:hover {
 
   nav ul.nav-links.active {
     display: flex;
+  }
+
+  .menu-icon{
+    display: block;
   }
 }
 
@@ -116,12 +126,18 @@ section {
 
 @media (max-width: 768px) {
   #home h1 {
-    font-size: 3rem; /* Adjusted for mobile */
-    margin-top: -50px;
+    font-size: 2.5rem; /* Adjusted for mobile */
   }
 
   #home p {
-    font-size: 1.5rem; /* Adjusted for mobile */
+    font-size: 1.2rem; /* Adjusted for mobile */
+  }
+}
+
+@media(max-width: 768px){
+  .hero {
+    background-size: contain;
+    background-position: center;
   }
 }
 
