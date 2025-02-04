@@ -148,40 +148,42 @@ section {
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat; 
-  margin-bottom: 10px;
+  margin: 0 auto; 
  display: flex;
- flex-direction: column;
- text-align: center;
- align-items: center;
- justify-content: center;
  padding: 20px;
- max-width: 100%;
+ max-width: 1200px;
  box-sizing: border-box;
+ text-align: center;
 }
-.about h3, .about p{
-  max-width: 100%;
-  word-wrap: break-word;
-  text-align: center;
+.about h2, .about h3{
+  margin-bottom: 10px;
   font-size: 2rem;
 }
 
-#about p{
+.about p{
   font-size: 1rem;
+  line-height: 1.5;
+  max-width: 90%;
   font-weight: bolder;
+  margin: 0 auto 10px;
 }
 
 @media (max-width: 768px) {
   .about {
     padding: 10px; /* Reduce padding */
-    text-align: center;
   }
-  .about h3 {
+  .about h2 {
     font-size: 1.8rem;
+  }
+  .about h3{
+    font-size: 1.5rem;
   }
   .about p {
     font-size: 1.2rem; /* Adjusted for mobile */
     line-height: 1.5; /* Prevents text from being too compact */
     word-wrap: break-word;
+    max-width: 100%;
+    padding: 0 10px;
   }
 }
 
