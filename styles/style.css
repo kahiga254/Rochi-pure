@@ -165,6 +165,11 @@ section {
   font-weight: bolder;
 }
 
+@media (max-width: 768px) {
+  #about p {
+    font-size: 1.2rem; /* Adjusted for mobile */
+  }
+}
 
 
 .careers {
