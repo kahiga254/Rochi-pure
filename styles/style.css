@@ -171,7 +171,7 @@ section {
   margin-bottom: 1.5rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 390px) {
   .about {
     padding: 20px 10px; /* Reduce padding */
     text-align: center;
@@ -343,7 +343,7 @@ footer {
     margin: 0px 0px 20px 0px ;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 390px) {
     .contact_us_green .responsive-container-block.big-container {
       padding: 0 20px; /* Adjusted padding for smaller screens */
     }
@@ -409,7 +409,7 @@ footer {
     padding-left: 0px;
   }
   
-  @media (max-width: 1024px) {
+  @media (max-width: 390px) {
     .contact_us_green .responsive-container-block.container {
       justify-content: center;
       display: flex;
@@ -452,7 +452,7 @@ footer {
     }
   }
   
-  @media (max-width: 768px) {
+  @media (max-width: 390px) {
     .contact_us_green .text-content {
       display: none;
     }
@@ -470,7 +470,7 @@ footer {
     }
   }
   
-  @media (max-width: 500px) {
+  @media (max-width: 390px) {
     .contact_us_green .responsive-container-block.big-container {
       padding-top: 0px;
       padding-right: 20px;
@@ -564,7 +564,7 @@ body {
   width: 100%;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 390px) {
   .wk-ipadp-1 {
     width: 8.333333%;
   }
@@ -614,7 +614,7 @@ body {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 390px) {
   .wk-tab-1 {
     width: 8.333333%;
   }
@@ -664,7 +664,7 @@ body {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 390px) {
   .wk-mobile-1 {
     width: 8.333333%;
   }
@@ -836,7 +836,7 @@ body {
   width: 100%;
 }
 
-@media (max-width: 460px) {
+@media (max-width: 390px) {
   .careers .form_container {
     grid-template-columns: 1fr; /* Single column on small screens */
   }
