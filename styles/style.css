@@ -841,16 +841,3 @@ body {
   }
 }
 
-@media (max-width: 768px) {
-  section {
-    padding: 10px; /* Adjusted padding for smaller screens */
-  }
-
-  .about h3 {
-    font-size: 1.5rem; /* Adjusted font size for smaller screens */
-  }
-
-  .about p {
-    font-size: 0.9rem; /* Adjusted font size for smaller screens */
-  }
-}
