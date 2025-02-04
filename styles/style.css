@@ -136,7 +136,8 @@ section {
 
 @media(max-width: 768px){
   .hero {
-    background-size:100% 100%;
+    height: auto; /* Let content define height */
+    padding: 20px 0; /* Adjust padding */
   }
 }
 
