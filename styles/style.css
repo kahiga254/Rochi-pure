@@ -239,10 +239,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    margin-top: 0px;
-    margin-right: auto;
-    margin-bottom: 0px;
-    margin-left: auto;
+    border: 2px solid blue;
   }
 
   .contact_us_green .responsive-container-block .responsive-cell-block {
@@ -406,7 +403,8 @@ footer {
   }
   
   .contact_us_green .head-text-box {
-    display: none;
+    border: 2px solid green;
+    margin-bottom: -140px;
   }
   
   .contact_us_green .line {
