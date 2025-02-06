@@ -182,12 +182,12 @@ border: 2px solid white;
   }
   .about h3 {
     font-size: 1rem;
-    margin-top: 0.8rem;
+    margin-top: 0rem;
   }
   .about h2 {
     font-size: 0.8rem;
-    line-height: 1.2rem;
-    margin-top: 0.5rem;
+    line-height: 0rem;
+    margin-top: 0rem;
   }
   .about p {
     font-size: 0.9rem; /* Adjusted for mobile */
