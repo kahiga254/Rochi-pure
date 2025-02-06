@@ -145,6 +145,7 @@ section {
 
 .about {
 background: #61caff; 
+border: 2px solid white;
  display: flex;
  flex-direction: column;
  text-align: center;
@@ -172,7 +173,7 @@ background: #61caff;
 
 @media (min-width: 360px) and (max-width: 760px) {
   .about {
-    padding: 20px 10px; /* Reduce padding */
+    padding: 40px 20px; /* Reduce padding */
     
   }
   .about h3 {
@@ -180,6 +181,7 @@ background: #61caff;
   }
   .about h2 {
     font-size: 0.8rem;
+    line-height: 1.2rem;
   }
   .about p {
     font-size: 0.9rem; /* Adjusted for mobile */
